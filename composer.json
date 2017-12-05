@@ -1,0 +1,22 @@
+{
+  "name": "veka-server/luckycycle-php",
+  "description": "Librairie luckycycle-php",
+  "license": "MIT",
+  "keywords": ["luckycycle", "luckycycle-php"],
+  "authors": [
+    {
+      "name": "Vanhaezebrouck Nicolas",
+      "email": "contact@veka-server.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VekaServer\\Luckycycle\\" : "src/"
+    }
+  },
+  "require": {
+    "lib-curl": "*",
+    "php": ">=5.2",
+    "educoder/pest": "1.0.0"
+  }
+}
